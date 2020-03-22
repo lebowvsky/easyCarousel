@@ -20,7 +20,7 @@ setInterval(()=> {
     j<0 ? j = imagesCarousel.length-1 : j;
     imagesCarousel[j].style.display = "none";
     imagesCarousel[i].style.display = "block";
-    imagesCarousel[i].style.width = "auto";
+    imagesCarousel[i].style.height = "100%";
     i == imagesCarousel.length-1 ? i=0 : i++;
 }, 3000);
 
