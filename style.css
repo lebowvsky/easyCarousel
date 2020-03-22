@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(176, 241, 220);
+}
+
+#container img {
+    position: relative;
+}
